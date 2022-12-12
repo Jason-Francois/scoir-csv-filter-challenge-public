@@ -19,6 +19,15 @@ The CSV will contain three fields: `first_name`, `last_name`, and `dob`. The `do
 
 The user should be prompted to filter by `first_name`, `last_name`, or birth year. The application should then accept a name or year and return all records that match the value for the provided filter. 
 
+## How-To
+   1. To execute this program, first clone the repo and then from the command line run the command `python3 main.py`
+   2. The user will then be prompted to pick a field (first_name, last_name, or dob) to filter the csv file by
+   3. The user will then be prompted to enter a value that will be searched within the chosen column from step 2
+   4. If any results are found, they will be printed to the console
+
+## Assumptions
+   - The file to be used with this program, will be the "test.csv" file
+
 Example input:
 ```
 first_name,last_name,dob
