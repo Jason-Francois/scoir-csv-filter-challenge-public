@@ -39,10 +39,17 @@ def main():
 
 def search_csv(file_name, field, key):
     """
+        Searches a csv file for rows containing a particular
+        value in a column and returns the results
+        
         Parameters:
             - file_name(str): name of csv file
             - field(str): csv column to be searched (first_name, last_name, etc.)
             - key(str): Value that is being searched wihin column
+        
+        Returns
+            - results(list): list of rows in CSV file where the value in the 
+              column specified by the field parameter is equal to key
     """
     results = []
     try:
