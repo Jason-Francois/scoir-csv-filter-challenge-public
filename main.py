@@ -16,7 +16,7 @@ def main():
 
         # If field name is invalid, ask for field name again
         while(user_input_field not in fields):
-            user_input_field = input("Please insert valid field name (first_name, last_name, or dob):\n")
+            user_input_field = input("Invalid Input. Please insert valid field name (first_name, last_name, or dob):\n")
         
         # Search for value in column specified by user input
         user_input_key = input("Enter {} to search:\n".format(user_input_field)).lower()
